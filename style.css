@@ -1,0 +1,35 @@
+.all{
+  width: 1400px;
+  margin: auto;
+}
+
+h1{
+margin:0;}
+.mast{
+  background-color: white;
+  font-family: "Times New Roman";
+font-size: 100px;
+text-align: center;}
+img{
+width:600px;
+height: auto;
+}
+h2{margin:0px;
+font-family: "Times";
+font-size:50px;}
+h3{margin:0px;
+font-family: "Times";
+font-size:30px;}
+.hero{
+width: 700px;
+float: right;
+margin: auto;
+}
+.breaking{
+width: 600px;
+margin: auto;
+float: left;
+}
+.tagline{font-style: italic;
+font-size: 20px;
+text-align: center;}
