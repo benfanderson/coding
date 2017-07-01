@@ -15,19 +15,21 @@ width:600px;
 height: auto;
 }
 h2{margin:0px;
-font-family: "Times";
+font-family: "Arial";
 font-size:50px;}
 h3{margin:0px;
-font-family: "Times";
+font-family: "Arial";
 font-size:30px;}
 .hero{
 width: 700px;
 float: right;
 margin: auto;
+margin-top: 10px;
 }
 .breaking{
 width: 600px;
 margin: auto;
+margin-top: 10px;
 float: left;
 }
 .tagline{font-style: italic;
