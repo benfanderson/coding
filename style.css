@@ -12,18 +12,22 @@ font-size: 100px;
 text-align: center;}
 h2{margin:0px;
 font-family: "Arial";
-font-size:50px;}
+font-size: 50px;
+}
 h3{margin:0px;
 font-family: "Arial";
 font-size:30px;}
 .hero{
+  h2.font-size: 50px;
   margin-top: 10px;
 display: inline-block;
 width: 680px;
 margin-left: 10px;
 vertical-align: top;
+font-size: 20px;
 }
 .breaking{
+  h2:40px;
   margin-top: 10px;
   width: 350px;
 display: inline-block;
@@ -31,16 +35,28 @@ display: inline-block;
 .tagline{font-style: italic;
 font-size: 20px;
 text-align: center;}
-.col3{
+.sidestory-container{
 margin-top: 10px;
-vertical-align: top;
-  width: 340px;
-  display: inline-block;
-  margin-left: 10px;
+    vertical-align: top;
+    width: 340px;
+    display: inline-block;
+    margin-left: 10px;
 }
+
+.ad{background-color: red;
+color: green;
+border-color: blue;
+border: 5px;
+text-align: center;}
+
 .morestory{
 margin-top: 10px;
 vertical-align: top;
   width: 340px;
   display: inline-block;
 margin-left: 7px;}
+
+
+footer{
+font-size: 20px;
+}
