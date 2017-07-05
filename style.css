@@ -16,6 +16,27 @@ font-family: "Arial";
 h3{margin:0px;
 font-family: "Arial";
 font-size:25px;}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.all{
+  width: 1400px;
+  margin: auto;
+}
+
 .hero{
   margin-top: 10px;
 float: left;
