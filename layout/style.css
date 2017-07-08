@@ -1,0 +1,127 @@
+.all{
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  text-shadow: 2px 2px black;
+font-family: Cinzel, serif;}
+
+h1{font-weight: bold;
+color: white;
+position: absolute;
+   top: 10px;
+   left: 50px;
+   font-size: 50px;
+}
+
+h2{font-weight: bold;
+color: white;
+position: absolute;
+font-size: 50px;}
+
+.red{width:100%;
+  height: 20%;
+margin-bottom: 3%;
+position: relative;
+}
+
+.red img {
+  width: 100%;
+  height: 100%;
+}
+
+.blue{width: 67%;
+height: 53%;
+float: left;
+margin-right: 3%;
+position: relative;
+}
+
+.blue h2 {
+   top: 100px;
+   left: 200px;
+   font-size: 50px;
+}
+
+.blue img {
+  width: 100%;
+  height: 100%;
+}
+
+.green{width: 30%;
+height: 25%;
+float: right;
+margin-bottom: 3%;
+position: relative;
+}
+
+.green h2{
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top:5px;
+  left:20px;
+}
+
+.green img {
+  width: 100%;
+  height: 100%;
+}
+
+.yellow{width: 30%;
+height: 25%;
+float: right;
+position: relative;
+}
+
+.yellow h2{
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top:5px;
+  left:20px;
+}
+
+.yellow img {
+  width: 100%;
+  height: 100%;
+}
+
+.purple{
+  height: 30%;
+width: 48.5%;
+float: left;
+margin-top: 3%;
+margin-right: 1.5%;
+position:relative;}
+
+.purple h2 {font-weight: bold;
+color: white;
+position: absolute;
+   top: 40px;
+   left: 15px;
+}
+
+.purple img {
+  width: 100%;
+  height: 100%;
+}
+
+.pink{
+  height: 30%;
+width: 48.5%;
+float: right;
+margin-top: 3%;
+margin-left: 1.5%;
+position: relative;
+}
+
+.pink h2 {font-weight: bold;
+color: white;
+position: absolute;
+   top: 40px;
+   left: 15px;}
+
+.pink img {
+  width: 100%;
+  height: 100%;
+}
