@@ -1,12 +1,59 @@
-h1{
+h1 {
+  font-size: 35px;
   font-family: Times;
-  font-weight: bold;
   text-align: center;
-  font-size: 100px;
+  font-weight: bold;
 }
 
+h2{
+  font-size: 20px;
+font-weight: bold;
+margin: 0px;
+padding-bottom: 10px;
+}
 
-h2 {font-weight: bold;}
+.ad h2{
+  font-size: 25px;
+  margin: 10px;
+}
+
+.hero h2{
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+/*sm viewport (tablets)*/
+@media (min-width: 768px) {
+ h1 {
+  font-size: 75px;
+ }
+
+.ad h2{
+  font-size: 40px;
+}
+
+ .hero h2 {
+   font-size: 45px;
+ }
+
+}
+
+/*md viewport (desktops)*/
+@media (min-width: 992px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
+@-webkit-keyframes blinker {
+  from {
+      opacity: 1.0;
+  }
+  to {
+      opacity: 0.0;
+
+  }
+}
 
 a:link {
     color: black;
@@ -32,14 +79,7 @@ hr {
   text-align: center;
 }
 
-.top-stories, .side-stories, .hero{
-  padding-top: 5px;
-}
-
-.top-stories h2{
-  margin: 0px;
-  padding-bottom: 10px;
-}
+.lead{font-family: Times;}
 
 .top-stories hr{
   margin:0px;
@@ -51,29 +91,13 @@ hr {
   padding-bottom: 12px;
 }
 
-.hero h2{
-  font-size: 35px;
-}
-
-.lead{font-family: Times;}
-
 .ad {background-color: red;
 color: green;
 text-align: center;
-}
-
-@-webkit-keyframes blinker {
-  from {
-      opacity: 1.0;
-  }
-  to {
-      opacity: 0.0;
-
-  }
+margin-bottom: 10px;
 }
 
 .ad h2{
-  font-size: 55px;
   -webkit-animation-name: blinker;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
