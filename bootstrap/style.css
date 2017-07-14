@@ -43,6 +43,10 @@ padding-bottom: 10px;
   h1 {
     font-size: 100px;
   }
+  .top-stories h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }  
 }
 
 @-webkit-keyframes blinker {
@@ -86,9 +90,15 @@ hr {
 }
 
 .top-stories h3{
-  margin: 0px;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.high, .side-stories{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .ad {background-color: red;
